@@ -18,7 +18,8 @@ class App < Sinatra::Base
     @user_name = params[:name]
     "Goodbye, #{@user_name}."
   end
-  get /multiply/(1)/(2)
+
+  
 
   end
 end
